@@ -1,0 +1,98 @@
+body {
+    background-image: url("../计算时间间隔/img/present.jpg");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: 100% auto
+  }
+  
+  .container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  #calculateBtn {
+    margin-top: 20px;
+  }
+  
+  
+  
+  .title {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 150px;
+  }
+  
+  .timer {
+    font-weight: normal;
+    font-size: 50px;
+  }
+  
+  
+   #author {color: rgb(47, 156, 230);
+    text-align:right;
+    margin-top: 120px;
+    font-size: 50px;
+    font-family:"华文行楷";
+    padding-right: 1px;
+    margin-right: 1px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* 初始状态将侧边栏隐藏在左侧 */
+    width: 250px;
+    height: 50vh;
+    background-color: transparent;
+    transition: left 0.3s ease-in-out;
+    padding: 20px;
+  }
+  
+  .sidebar.open {
+    left: 0; /* 鼠标靠近左侧时，侧边栏弹出 */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #0a0a0a;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    color: rgb(39, 222, 235); /* 鼠标悬停时的文字颜色 */
+  }
+  
+  .sidebar ul li a:active {
+    color: rgb(0, 255, 42); /* 点击时的文字颜色 */
+  }
+  
+  
+  
+  
+  

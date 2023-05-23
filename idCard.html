@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>身份证工具</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center">身份证工具</h1>
+
+    <div class="input-group">
+      <label for="idNumber">身份证号码：</label>
+      <input type="text" id="idNumber">
+    </div>
+
+    <div class="text-center">
+      <button id="verifyBtn">校验身份证合法性</button>
+      <button id="infoBtn">获取身份证详细信息</button>
+      <button id="generateBtn">随机生成合法身份证号码</button>
+      <button id="constellationBtn" class="btn btn-primary">根据生日返回星座</button>
+      <button id="ageBtn" class="btn btn-primary">根据生日返回年龄</button>
+      <button id="upgradeBtn" class="btn btn-primary">身份证15位升级到18位</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+  <script src="./node_modules/moment/min/moment.min.js"></script>
+  <script src="script.browserified.js"></script>
+
+</body>
+
+</html>
